@@ -1,0 +1,22 @@
+npm init
+npm i express mongoose passport passport-jwt jsonwebtoken body-parser bcryptjs validator
+npm i -D nodemon
+
+//running node js
+"start": "node server.js",
+"server": "nodemon server.js",
+
+
+
+//stuff relateded to git
+
+create .gitignore  file
+
+include file which you dont want to be there
+like :  
+/node_modules
+package-lock.json
+
+git init
+git add .
+git commit -am 'inital express server with route files"
